@@ -8,7 +8,7 @@ public class Day01 {
     public static void main(String[] args) {
         PriorityQueue<Integer> calories  = new PriorityQueue<>(Comparator.reverseOrder());
         try {
-            //Read file
+            // Read file
             File file = new File("C:\\Users\\zival\\IdeaProjects\\adventofcode\\src\\com\\adventofcode\\ziva\\day01\\input.txt");
             Scanner sc = new Scanner(file);
 
